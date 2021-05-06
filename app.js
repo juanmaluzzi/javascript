@@ -16,10 +16,10 @@ function sound(event) {
   console.log(button);
 }
 
-/*document.addEventListener("keypress", (event) => {
+document.addEventListener("keypress", (event) => {
   const key = event.key;
   const button = document.querySelector(`button[key="${key}"]`);
   if (button) {
     button.click();
   }
-});*/
+});
