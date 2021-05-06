@@ -32,6 +32,13 @@ body {
   color: white;
 }
 
+.imagen-electronico a {
+  position: absolute;
+  color: white;
+  margin-top: 50px;
+  margin-left: 38px;
+}
+
 button {
   vertical-align: middle;
   width: 25px;
