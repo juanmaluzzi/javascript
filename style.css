@@ -1,0 +1,247 @@
+body {
+  background-image: url(imagenes/wood.jpg);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salir {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  bottom: 593px;
+  margin-left: 450px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.salir2 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  bottom: 280px;
+  margin-left: 600px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.imagen a {
+  position: absolute;
+  margin-top: 120px;
+  margin-right: 400px;
+  color: white;
+}
+
+button {
+  vertical-align: middle;
+  width: 25px;
+  height: 150px;
+}
+
+.imagen {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.change-piano {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  text-align: center;
+  bottom: 593px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.piano {
+  display: flex;
+  position: relative;
+  top: 82px;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: #252525;
+}
+
+.white-key {
+  width: 30px;
+  height: 158px;
+  background-color: #fff;
+  border: 1.5px solid black;
+  outline: none;
+  margin-left: -4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.black-key {
+  position: absolute;
+  width: 20px;
+  height: 85px;
+  background-image: linear-gradient(black, rgb(58, 58, 58));
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}
+
+.black {
+  left: 12px;
+}
+.black1 {
+  left: 39px;
+}
+.black2 {
+  left: 90px;
+}
+.black3 {
+  left: 117px;
+}
+.black4 {
+  left: 142px;
+}
+.black5 {
+  left: 195px;
+}
+.black6 {
+  left: 220px;
+}
+.black7 {
+  left: 246px;
+}
+.black8 {
+  left: 299px;
+}
+.black9 {
+  left: 325px;
+}
+.black10 {
+  left: 377px;
+}
+.black11 {
+  left: 402px;
+}
+.black12 {
+  left: 428px;
+}
+.black13 {
+  left: 480px;
+}
+.black14 {
+  left: 506px;
+}
+.black15 {
+  left: 558px;
+}
+.black16 {
+  left: 585px;
+}
+.black17 {
+  left: 610px;
+}
+.black18 {
+  left: 662px;
+}
+.black19 {
+  left: 689px;
+}
+.black20 {
+  left: 740px;
+}
+.black21 {
+  left: 766px;
+}
+.black22 {
+  left: 792px;
+}
+.black23 {
+  left: 843px;
+}
+.black24 {
+  left: 870px;
+}
+
+.white-key2 {
+  justify-content: center;
+  width: 49.5px;
+  height: 171px;
+  background-color: #fff;
+  border: 1.5px solid black;
+  outline: none;
+  margin-left: -4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.black-key2 {
+  position: absolute;
+  width: 20px;
+  height: 105px;
+  background-image: linear-gradient(black, rgb(58, 58, 58));
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}
+
+.imagen-electronico {
+  position: absolute;
+  display: flex;
+}
+
+.piano2 {
+  display: flex;
+  position: relative;
+  top: 97px;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 6px;
+  background-color: #252525;
+}
+
+.change-piano2 {
+  display: block;
+  position: absolute;
+  flex-direction: row;
+  margin-left: 250px;
+  bottom: 640px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.black0 {
+  left: 30px;
+}
+
+.black01 {
+  left: 77px;
+}
+
+.black02 {
+  left: 168px;
+}
+
+.black03 {
+  left: 213px;
+}
+
+.black04 {
+  left: 259px;
+}
+
+.black05 {
+  left: 350px;
+}
+
+.black06 {
+  left: 395px;
+}
+
+.black07 {
+  left: 485px;
+}
+
+.black08 {
+  left: 533px;
+}
+
+.black09 {
+  left: 577px;
+}

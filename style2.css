@@ -1,0 +1,108 @@
+body {
+  background-image: url(imagenes/pianoimage.jpg);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu h1 {
+  margin-top: 100px;
+  text-shadow: 2px 2px 5px white;
+  align-items: center;
+  font-size: 100px;
+  justify-content: center;
+}
+
+.options button {
+  height: 50px;
+  width: 170px;
+  margin-top: 90px;
+  margin-left: 35px;
+  background-color: #76b1bb;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.credits button {
+  margin-left: 250px;
+  margin-top: 100px;
+  height: 50px;
+  width: 150px;
+  background-color: #76b1bb;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.menu-credits h1 {
+  display: flex;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 350px;
+  margin-top: 110px;
+  color: rgb(165, 161, 161);
+}
+
+.menu-credits h2 {
+  display: flex;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 510px;
+  margin-top: 250px;
+  color: rgb(165, 161, 161);
+}
+
+.footer h3 {
+  display: flex;
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 550px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(165, 161, 161);
+}
+
+.footer h4 {
+  display: flex;
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 600px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(165, 161, 161);
+}
+
+.footer button {
+  width: 70px;
+  display: flex;
+  position: absolute;
+  margin-left: 630px;
+  margin-top: 700px;
+  background-color: #76b1bb;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.back {
+  width: 70px;
+  display: flex;
+  position: absolute;
+  bottom: 200px;
+  background-color: #76b1bb;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.instructions {
+  text-align: left;
+  margin-right: 900px;
+  color: whitesmoke;
+}

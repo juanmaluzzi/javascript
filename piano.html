@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano clasico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="imagen">
+      <img src="imagenes/pianofondoteclas.png" alt="pianofondoteclas" />
+      <a href="instrucciones.html">Controles</a>
+    </div>
+
+    <div class="change-piano">
+      <a href="piano2.html" style="color: white">Ir a Piano electronico</a>
+    </div>
+
+    <div class="piano">
+      <button class="white-key" data-note="DO" key="1">■</button>
+      <button class="black-key black" data-note="BLACK" key="8"></button>
+      <button class="white-key" data-note="RE" key="2"></button>
+      <button class="black-key black1" data-note="BLACK1" key="9"></button>
+      <button class="white-key" data-note="MI" key="3"></button>
+      <button class="white-key" data-note="FA" key="4"></button>
+      <button class="black-key black2" data-note="BLACK2" key="0"></button>
+      <button class="white-key" data-note="SOL" key="5"></button>
+      <button class="black-key black3" data-note="BLACK3" key="-"></button>
+      <button class="white-key" data-note="LA" key="6"></button>
+      <button class="black-key black4" data-note="BLACK4" key="="></button>
+      <button class="white-key" data-note="SI" key="7"></button>
+
+      <button class="white-key" data-note="DO1" key="q">■</button>
+      <button class="black-key black5" data-note="BLACK5" key="i"></button>
+      <button class="white-key" data-note="RE1" key="w"></button>
+      <button class="black-key black6" data-note="BLACK6" key="o"></button>
+      <button class="white-key" data-note="MI1" key="e"></button>
+      <button class="white-key" data-note="FA1" key="r"></button>
+      <button class="black-key black7" data-note="BLACK7" key="p"></button>
+      <button class="white-key" data-note="SOL1" key="t"></button>
+      <button class="black-key black8" data-note="BLACK8" key="["></button>
+      <button class="white-key" data-note="LA1" key="y"></button>
+      <button class="black-key black9" data-note="BLACK9" key="]"></button>
+      <button class="white-key" data-note="SI1" key="u"></button>
+
+      <button class="white-key" data-note="DO2" key="a">■</button>
+      <button class="black-key black10" data-note="BLACK10" key="k"></button>
+      <button class="white-key" data-note="RE2" key="s"></button>
+      <button class="black-key black11" data-note="BLACK11" key="l"></button>
+      <button class="white-key" data-note="MI2" key="d"></button>
+      <button class="white-key" data-note="FA2" key="f"></button>
+      <button class="black-key black12" data-note="BLACK12" key=";"></button>
+      <button class="white-key" data-note="SOL2" key="g"></button>
+      <button class="black-key black13" data-note="BLACK13" key="'"></button>
+      <button class="white-key" data-note="LA2" key="h"></button>
+      <button class="black-key black14" data-note="BLACK14" key="+"></button>
+      <button class="white-key" data-note="SI2" key="j"></button>
+
+      <button class="white-key" data-note="DO3" key="z">■</button>
+      <button class="black-key black15" data-note="BLACK15" key=","></button>
+      <button class="white-key" data-note="RE3" key="x"></button>
+      <button class="black-key black16" data-note="BLACK16" key="."></button>
+      <button class="white-key" data-note="MI3" key="c"></button>
+      <button class="white-key" data-note="FA3" key="v"></button>
+      <button class="black-key black17" data-note="BLACK17" key="/"></button>
+      <button class="white-key" data-note="SOL3" key="b"></button>
+      <button class="black-key black18" data-note="BLACK18" key="*"></button>
+      <button class="white-key" data-note="LA3" key="n"></button>
+      <button class="black-key black19" data-note="BLACK19" key="\"></button>
+      <button class="white-key" data-note="SI3" key="m"></button>
+
+      <button class="white-key" data-note="DO4" key="49">■</button>
+      <button class="black-key black20" data-note="BLACK20" key="50"></button>
+      <button class="white-key" data-note="RE4" key="51"></button>
+      <button class="black-key black21" data-note="BLACK21" key="52"></button>
+      <button class="white-key" data-note="MI4" key="53"></button>
+      <button class="white-key" data-note="FA4" key="54"></button>
+      <button class="black-key black22" data-note="BLACK22" key="55"></button>
+      <button class="white-key" data-note="SOL4" key="56"></button>
+      <button class="black-key black23" data-note="BLACK23" key="57"></button>
+      <button class="white-key" data-note="LA4" key="58"></button>
+      <button class="black-key black24" data-note="BLACK24" key="59"></button>
+      <button class="white-key" data-note="SI4" key="60"></button>
+      <button class="white-key" data-note="SI4" key="61"></button>
+
+      <audio src="notas/30.mp3" id="soundDO"></audio>
+      <audio src="notas/31.mp3" id="soundBLACK"></audio>
+      <audio src="notas/32.mp3" id="soundRE"></audio>
+      <audio src="notas/33.mp3" id="soundBLACK1"></audio>
+      <audio src="notas/34.mp3" id="soundMI"></audio>
+      <audio src="notas/35.mp3" id="soundFA"></audio>
+      <audio src="notas/36.mp3" id="soundBLACK2"></audio>
+      <audio src="notas/37.mp3" id="soundSOL"></audio>
+      <audio src="notas/38.mp3" id="soundBLACK3"></audio>
+      <audio src="notas/39.mp3" id="soundLA"></audio>
+      <audio src="notas/40.mp3" id="soundBLACK4"></audio>
+      <audio src="notas/41.mp3" id="soundSI"></audio>
+      <audio src="notas/42.mp3" id="soundDO1"></audio>
+      <audio src="notas/43.mp3" id="soundBLACK5"></audio>
+      <audio src="notas/44.mp3" id="soundRE1"></audio>
+      <audio src="notas/45.mp3" id="soundBLACK6"></audio>
+      <audio src="notas/46.mp3" id="soundMI1"></audio>
+      <audio src="notas/47.mp3" id="soundFA1"></audio>
+      <audio src="notas/48.mp3" id="soundBLACK7"></audio>
+      <audio src="notas/49.mp3" id="soundSOL1"></audio>
+      <audio src="notas/50.mp3" id="soundBLACK8"></audio>
+      <audio src="notas/51.mp3" id="soundLA1"></audio>
+      <audio src="notas/52.mp3" id="soundBLACK9"></audio>
+      <audio src="notas/53.mp3" id="soundSI1"></audio>
+      <audio src="notas/54.mp3" id="soundDO2"></audio>
+      <audio src="notas/55.mp3" id="soundBLACK10"></audio>
+      <audio src="notas/56.mp3" id="soundRE2"></audio>
+      <audio src="notas/57.mp3" id="soundBLACK11"></audio>
+      <audio src="notas/58.mp3" id="soundMI2"></audio>
+      <audio src="notas/59.mp3" id="soundFA2"></audio>
+      <audio src="notas/60.mp3" id="soundBLACK12"></audio>
+      <audio src="notas/61.mp3" id="soundSOL2"></audio>
+      <audio src="notas/62.mp3" id="soundBLACK13"></audio>
+      <audio src="notas/63.mp3" id="soundLA2"></audio>
+      <audio src="notas/64.mp3" id="soundBLACK14"></audio>
+      <audio src="notas/65.mp3" id="soundSI2"></audio>
+      <audio src="notas/66.mp3" id="soundDO3"></audio>
+      <audio src="notas/67.mp3" id="soundBLACK15"></audio>
+      <audio src="notas/68.mp3" id="soundRE3"></audio>
+      <audio src="notas/69.mp3" id="soundBLACK16"></audio>
+      <audio src="notas/70.mp3" id="soundMI3"></audio>
+      <audio src="notas/71.mp3" id="soundFA3"></audio>
+      <audio src="notas/72.mp3" id="soundBLACK17"></audio>
+      <audio src="notas/73.mp3" id="soundSOL3"></audio>
+      <audio src="notas/74.mp3" id="soundBLACK18"></audio>
+      <audio src="notas/75.mp3" id="soundLA3"></audio>
+      <audio src="notas/76.mp3" id="soundBLACK19"></audio>
+      <audio src="notas/77.mp3" id="soundSI3"></audio>
+      <audio src="notas/78.mp3" id="soundDO4"></audio>
+      <audio src="notas/79.mp3" id="soundBLACK20"></audio>
+      <audio src="notas/80.mp3" id="soundRE4"></audio>
+      <audio src="notas/81.mp3" id="soundBLACK21"></audio>
+      <audio src="notas/82.mp3" id="soundMI4"></audio>
+      <audio src="notas/83.mp3" id="soundFA4"></audio>
+      <audio src="notas/84.mp3" id="soundBLACK22"></audio>
+      <audio src="notas/85.mp3" id="soundSOL4"></audio>
+      <audio src="notas/86.mp3" id="soundBLACK23"></audio>
+      <audio src="notas/87.mp3" id="soundLA4"></audio>
+      <audio src="notas/88.mp3" id="soundBLACK24"></audio>
+      <audio src="notas/89.mp3" id="soundSI4"></audio>
+      <audio src="notas/90.mp3" id="soundSI4"></audio>
+    </div>
+
+    <div class="salir">
+      <a href="index.html" style="color: white">Salir</a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
